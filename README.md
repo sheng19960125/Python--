@@ -33,7 +33,7 @@ cv2.imshow('src',img)
 cv2.imshow('show',dilation)
 cv2.waitKey()
 ```
-![](https://github.com/sheng19960125/Python--/edit/master/02.PNG)  
+![](https://github.com/sheng19960125/Python--/blob/master/02.PNG)  
   
 ## 開運算 利用先侵蝕接著膨脹 *cv2.morphologyEx() - cv2.MORPH_OPEN
 ```
@@ -50,7 +50,7 @@ cv2.imshow('src',img)
 cv2.imshow('show',opening)
 cv2.waitKey()
 ```
-![](https://github.com/sheng19960125/Python--/edit/master/03.PNG)  
+![](https://github.com/sheng19960125/Python--/blob/master/03.PNG)  
   
 ## 閉運算 利用先膨脹接著侵蝕 *cv2.morphologyEx() - cv2.MORPH_CLOSE
 ```
@@ -66,5 +66,5 @@ cv2.imshow('src',img)
 cv2.imshow('show',closing)
 cv2.waitKey()
 ```
-![](https://github.com/sheng19960125/Python--/edit/master/04.PNG)  
+![](https://github.com/sheng19960125/Python--/edit/blob/04.PNG)  
   
