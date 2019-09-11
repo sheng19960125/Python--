@@ -15,7 +15,7 @@ cv2.imshow('base',img)
 cv2.imshow('last',erosion)
 cv2.waitKey()
 ```
-![](https://github.com/sheng19960125/Python--/edit/master/01.png)  
+![](https://github.com/sheng19960125/Python--/blob/master/01.PNG)  
   
 ## 接著介紹 影像處理中 膨脹原理
 * 與侵蝕正好相反。如果內圖至少為一個像素為"1"，則像素元素為"1"，增加在圖像中白色區域或前景對象的大小增加。  
@@ -33,7 +33,7 @@ cv2.imshow('src',img)
 cv2.imshow('show',dilation)
 cv2.waitKey()
 ```
-![](https://github.com/sheng19960125/Python--/edit/master/02.png)  
+![](https://github.com/sheng19960125/Python--/edit/master/02.PNG)  
   
 ## 開運算 利用先侵蝕接著膨脹 *cv2.morphologyEx() - cv2.MORPH_OPEN
 ```
@@ -50,7 +50,7 @@ cv2.imshow('src',img)
 cv2.imshow('show',opening)
 cv2.waitKey()
 ```
-![](https://github.com/sheng19960125/Python--/edit/master/03.png)  
+![](https://github.com/sheng19960125/Python--/edit/master/03.PNG)  
   
 ## 閉運算 利用先膨脹接著侵蝕 *cv2.morphologyEx() - cv2.MORPH_CLOSE
 ```
@@ -66,5 +66,5 @@ cv2.imshow('src',img)
 cv2.imshow('show',closing)
 cv2.waitKey()
 ```
-![](https://github.com/sheng19960125/Python--/edit/master/04.png)  
+![](https://github.com/sheng19960125/Python--/edit/master/04.PNG)  
   
