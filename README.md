@@ -66,5 +66,5 @@ cv2.imshow('src',img)
 cv2.imshow('show',closing)
 cv2.waitKey()
 ```
-![](https://github.com/sheng19960125/Python--/edit/blob/04.PNG)  
+![](https://github.com/sheng19960125/Python--/blob/master/04.PNG)  
   
