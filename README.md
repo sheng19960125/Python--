@@ -33,4 +33,32 @@ cv2.imshow('show',dilation)
 cv2.waitKey()
 ```
 
-## 開運算 利用先侵蝕接著膨脹
+## 開運算 利用先侵蝕接著膨脹 *cv2.morphologyEx() - cv2.MORPH_OPEN
+```
+import cv2
+import numpy as np
+import matplotlib.pylab  as plt
+
+img = cv2.imread('03.png',0)
+
+kernel = np.ones((5,5),np.uint8)
+opening = cv2.morphologyEx(img, cv2.MORPH_OPEN, kernel)
+
+cv2.imshow('src',img)
+cv2.imshow('show',opening)
+cv2.waitKey()
+```
+## 閉運算 利用先膨脹接著侵蝕 *cv2.morphologyEx() - cv2.MORPH_CLOSE
+```
+import cv2
+import numpy as np
+
+img = cv2.imread('img9.png',0)
+
+kernel = np.ones((5,5),np.uint8)
+closing = cv2.morphologyEx(img, cv2.MORPH_CLOSE, kernel)
+
+cv2.imshow('src',img)
+cv2.imshow('show',closing)
+cv2.waitKey()
+```
